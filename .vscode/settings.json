@@ -12,7 +12,11 @@
         "tab.activeBackground": "#b198c9",
         "tab.activeForeground": "#ffffff",
         "tab.inactiveForeground": "#000000",
+        "editorError.foreground": "#af0060a4",
+        "editorWhitespace.foreground": "#af00601c"
     },
     "gitlens.hovers.currentLine.over": "line",
-    "gitlens.currentLine.enabled": false
+    "gitlens.currentLine.enabled": false,
+    "editor.fontSize": 14,
+    "editor.renderWhitespace": "all",
 }
