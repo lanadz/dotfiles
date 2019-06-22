@@ -1,10 +1,18 @@
 {
-  "workbench.colorTheme": "Solarized Light",
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#cccccc",
-    "activityBar.foreground": "#222222",
-    "activityBar.inactiveForeground": "#666666",
-    "tab.activeBackground": "#cccccc"
-  }
+    "files.trimTrailingWhitespace": true,
+    "editor.multiCursorModifier": "alt",
+    "editor.tabSize": 2,
+    "files.autoSave": "onWindowChange",
+    "editor.fontFamily": "Menlo",
+    "editor.formatOnType": true,
+    "editor.cursorBlinking": "smooth",
+    "workbench.colorTheme": "Quiet Light",
+    "editor.links": false,
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#b198c9",
+        "tab.activeForeground": "#ffffff",
+        "tab.inactiveForeground": "#000000",
+    },
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false
 }
-
