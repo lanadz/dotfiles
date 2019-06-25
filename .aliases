@@ -1,0 +1,4 @@
+alias ll='ls -hAl'
+alias la='ls -hal'
+alias gts='git status'
+alias gd='git diff'
