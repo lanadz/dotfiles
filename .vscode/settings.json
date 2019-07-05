@@ -1,22 +1,48 @@
 {
-    "files.trimTrailingWhitespace": true,
-    "editor.multiCursorModifier": "alt",
-    "editor.tabSize": 2,
-    "files.autoSave": "onWindowChange",
-    "editor.fontFamily": "Menlo",
-    "editor.formatOnType": true,
-    "editor.cursorBlinking": "smooth",
-    "workbench.colorTheme": "Quiet Light",
-    "editor.links": false,
-    "workbench.colorCustomizations": {
-        "tab.activeBackground": "#b198c9",
-        "tab.activeForeground": "#ffffff",
-        "tab.inactiveForeground": "#000000",
-        "editorError.foreground": "#af0060a4",
-        "editorWhitespace.foreground": "#af00601c"
-    },
-    "gitlens.hovers.currentLine.over": "line",
-    "gitlens.currentLine.enabled": false,
-    "editor.fontSize": 14,
-    "editor.renderWhitespace": "all",
+  "files.trimTrailingWhitespace": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.tabSize": 2,
+  "files.autoSave": "onWindowChange",
+  "editor.fontFamily": "Menlo",
+  "editor.formatOnType": true,
+  "editor.cursorBlinking": "smooth",
+  "workbench.colorTheme": "Kimbie Dark",
+  "editor.links": false,
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#725a35",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveForeground": "#c29f6b",
+    "editorError.foreground": "#af0060a4",
+    "editorWhitespace.foreground": "#af00601c"
+  },
+  "gitlens.hovers.currentLine.over": "annotation",
+  "gitlens.currentLine.enabled": false,
+  "editor.fontSize": 14,
+  "editor.renderWhitespace": "all",
+  "gitlens.blame.line.enabled": false, // turns off the end of line or hover blame annotations
+  "gitlens.statusBar.enabled": true,
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }, // turns on the status bar blame (on by default),
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "foreground": "#b3ce90"
+        }
+      },
+      {
+        "scope": "keyword.operator.new",
+        "settings": {
+          "foreground": "#fae20e"
+        }
+      }
+    ]
+  }
 }
