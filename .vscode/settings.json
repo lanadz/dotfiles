@@ -1,7 +1,5 @@
 {
-  "files.trimTrailingWhitespace": true,
   "editor.multiCursorModifier": "alt",
-  "editor.tabSize": 2,
   "files.autoSave": "onWindowChange",
   "editor.fontFamily": "Menlo",
   "editor.formatOnType": true,
@@ -21,8 +19,9 @@
   "editor.renderWhitespace": "all",
   "gitlens.blame.line.enabled": false, // turns off the end of line or hover blame annotations
   "gitlens.statusBar.enabled": true,
-  "editor.formatOnSave": true,
   "prettier.singleQuote": true,
+  "trailing-spaces.deleteModifiedLinesOnly": true,
+  "trailing-spaces.trimOnSave": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -44,5 +43,26 @@
         }
       }
     ]
-  }
+  },
+  "editor.minimap.enabled": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "prettier.tabWidth": 4,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.enablePreview": false,
+  "typescript.implementationsCodeLens.enabled": true,
+  "prettier.jsxSingleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.tslintIntegration": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false
 }
