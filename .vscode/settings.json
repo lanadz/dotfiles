@@ -1,11 +1,17 @@
 {
+  "javascript.implicitProjectConfig.checkJs": true,
+  "files.trimTrailingWhitespace": true,
   "editor.multiCursorModifier": "alt",
+  "editor.tabSize": 2,
   "files.autoSave": "onWindowChange",
-  "editor.fontFamily": "Menlo",
   "editor.formatOnType": true,
   "editor.cursorBlinking": "smooth",
-  "workbench.colorTheme": "Kimbie Dark",
   "editor.links": false,
+  // "editor.fontFamily": "Perfect DOS VGA 437",
+  "editor.fontFamily": "Menlo",
+  "editor.fontSize": 15,
+  // "workbench.colorTheme": "MS-DOS Editor Theme",
+  "workbench.colorTheme": "Kimbie Dark", // Dark and default
   "workbench.colorCustomizations": {
     "tab.activeBackground": "#725a35",
     "tab.activeForeground": "#ffffff",
@@ -15,19 +21,22 @@
   },
   "gitlens.hovers.currentLine.over": "annotation",
   "gitlens.currentLine.enabled": false,
-  "editor.fontSize": 14,
   "editor.renderWhitespace": "all",
-  "gitlens.blame.line.enabled": false, // turns off the end of line or hover blame annotations
+  "gitlens.blame.line.enabled": true,
   "gitlens.statusBar.enabled": true,
   "prettier.singleQuote": true,
-  "trailing-spaces.deleteModifiedLinesOnly": true,
-  "trailing-spaces.trimOnSave": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }, // turns on the status bar blame (on by default),
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -41,28 +50,44 @@
         "settings": {
           "foreground": "#fae20e"
         }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#4e3a2f"
+        }
       }
     ]
   },
-  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "prettier.tabWidth": 4,
-  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.editor.enablePreview": false,
-  "typescript.implementationsCodeLens.enabled": true,
-  "prettier.jsxSingleQuote": true,
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
-  "prettier.tslintIntegration": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[ruby]": {
+    "editor.defaultFormatter": "misogi.ruby-rubocop",
+    "editor.formatOnSave": false
   },
-  "diffEditor.ignoreTrimWhitespace": false
+  "ruby.rubocop.configFilePath": "/Users/svitlanadzyuban/projects/config/rubocop.yml",
+  "ruby.rubocop.onSave": false,
+  // "ruby.useLanguageServer": true,
+  // "ruby.format": "rubocop",
+  // "solargraph.formatting": true,
+  // "solargraph.useBundler": true,
+  "editor.minimap.enabled": true,
+  "explorer.confirmDelete": false,
+  "prettier.arrowParens": "always",
+  "prettier.disableLanguages": ["vue", "react"],
+
+  "prettier.trailingComma": "none",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 0,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
