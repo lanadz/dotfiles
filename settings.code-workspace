@@ -1,0 +1,82 @@
+{
+  "javascript.implicitProjectConfig.checkJs": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.tabSize": 2,
+  "files.autoSave": "onWindowChange",
+  "editor.fontFamily": "Menlo",
+  "editor.formatOnType": true,
+  "editor.cursorBlinking": "smooth",
+  // "workbench.colorTheme":"Kimbie Dark", // Dark and default
+  "workbench.colorTheme":"Solarized Light", // Outside
+  "editor.links": false,
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#725a35",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveForeground": "#c29f6b",
+    "editorError.foreground": "#af0060a4",
+    "editorWhitespace.foreground": "#af00601c"
+  },
+  "gitlens.hovers.currentLine.over": "annotation",
+  "gitlens.currentLine.enabled": false,
+  "editor.fontSize": 14,
+  "editor.renderWhitespace": "all",
+  "gitlens.blame.line.enabled": true,
+  "gitlens.statusBar.enabled": true,
+  "prettier.singleQuote": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "foreground": "#b3ce90"
+        }
+      },
+      {
+        "scope": "keyword.operator.new",
+        "settings": {
+          "foreground": "#fae20e"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#4e3a2f"
+        }
+      }
+    ]
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "solargraph.formatting": true,
+  "solargraph.useBundler": true,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  "prettier.arrowParens": "always",
+  "prettier.disableLanguages": [
+    "vue",
+    "react"
+  ],
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.trailingComma": "none",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 0
+}

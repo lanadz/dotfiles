@@ -1,0 +1,93 @@
+{
+  "javascript.implicitProjectConfig.checkJs": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.multiCursorModifier": "alt",
+  "editor.tabSize": 2,
+  "files.autoSave": "onWindowChange",
+  "editor.formatOnType": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.links": false,
+  // "editor.fontFamily": "Perfect DOS VGA 437",
+  "editor.fontFamily": "Menlo",
+  "editor.fontSize": 15,
+  // "workbench.colorTheme": "MS-DOS Editor Theme",
+  "workbench.colorTheme": "Kimbie Dark", // Dark and default
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#725a35",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveForeground": "#c29f6b",
+    "editorError.foreground": "#af0060a4",
+    "editorWhitespace.foreground": "#af00601c"
+  },
+  "gitlens.hovers.currentLine.over": "annotation",
+  "gitlens.currentLine.enabled": false,
+  "editor.renderWhitespace": "all",
+  "gitlens.blame.line.enabled": true,
+  "gitlens.statusBar.enabled": true,
+  "prettier.singleQuote": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "foreground": "#b3ce90"
+        }
+      },
+      {
+        "scope": "keyword.operator.new",
+        "settings": {
+          "foreground": "#fae20e"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#4e3a2f"
+        }
+      }
+    ]
+  },
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "misogi.ruby-rubocop",
+    "editor.formatOnSave": false
+  },
+  "ruby.rubocop.configFilePath": "/Users/svitlanadzyuban/projects/config/rubocop.yml",
+  "ruby.rubocop.onSave": false,
+  // "ruby.useLanguageServer": true,
+  // "ruby.format": "rubocop",
+  // "solargraph.formatting": true,
+  // "solargraph.useBundler": true,
+  "editor.minimap.enabled": true,
+  "explorer.confirmDelete": false,
+  "prettier.arrowParens": "always",
+  "prettier.disableLanguages": ["vue", "react"],
+
+  "prettier.trailingComma": "none",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 0,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
