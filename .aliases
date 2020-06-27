@@ -1,0 +1,52 @@
+alias ll='ls -hAl'
+alias la='ls -hal'
+alias gts='git status'
+alias gd='git diff'
+
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+alias gut='git'
+alias gti='git'
+alias glog='git log --pretty=format:'\''%C(yellow)%h %C(blue)%ad %C(green)[%cn] %C(red)%d %C(reset)%s'\'' --decorate --date=short'
+alias gps='git push'
+alias gpl='git pull'
+alias gdiff='git diff'
+alias vup='cd ~/tcc/ && vagrant up'
+alias vssh='cd ~/tcc/ && vagrant ssh'
+alias slog="tail -f /var/log/syslog"
+alias timestamp='date +%Y%m%d%H%M%S'
+
+
+alias ...='cd ./../..'
+alias afind='ack-grep --before-context=3 --after-context=3 --color --follow'
+alias buscheck='sudo netstat -lepunt | grep 32615'
+alias cck='RUN_AGAINST=localhost SKIP_DEBUG=1 cucumber --require features'
+alias cckd='RUN_AGAINST=localhost cucumber --require features'
+alias cckt='RUN_AGAINST=localhost SKIP_DEBUG=1 cucumber --require features --tags ~@on_demand --tags ~@wip --tags ~@unstable --tags ~@manual --tags ~@Barclays --tags ~@pending  --tags ~@documentation --tags ~@smoke'
+alias cdp='cd /opt/deploy/ccycloud'
+alias cdpi='cd /opt/deploy/ccycloud/internal/current'
+alias dbb='mysql -uroot -pRabbit123'
+alias gdiff='git diff'
+alias gts='git status'
+alias ll='ls -valh --color=auto'
+alias lldeploy='ll /opt/deploy/torquebox/torquebox-current/jboss/standalone/deployments'
+alias mess='sudo tail -f /var/log/syslog'
+alias mgb='ssh -t ansible@lon1prodctl002.ccycloud.com -- -e run_migrations=yes -e run_bundle=yes'
+alias qd='with_tb torquebox deploy '
+alias qud='with_tb torquebox undeploy '
+alias rdd='rails s -p 34020 trinidad'
+alias rvm-restart='rvm_reload_flag=1 source '\''/usr/local/rvm/scripts/rvm'\'''
+alias sl='ls'
+alias slog='mess | grep -v collectd'
+alias tbrspec='RACK_ENV=test JRUBY_OPTS=--1.8 RACK_ROOT=. with_tb bundle exec rspec --color'
+alias top='htop'
+alias trspec='RACK_ENV=test JRUBY_OPTS=--1.8 with_tb rspec --color'
+alias ansible=""
+alias flushdb="mysql -u root -pRabbit123 -e 'GRANT ALL PRIVILEGES ON *.* TO \"root\"@\"%\" WITH GRANT OPTION; FLUSH PRIVILEGES;\'"
+alias servup="sudo /root/bin/ha_control.rb --primary"
+alias undepdep="with_tb torquebox undeploy . &&  with_tb torquebox deploy ."
+
+export GREP_OPTIONS='--color=always' GREP_COLOR='33;44'
+
