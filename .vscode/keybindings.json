@@ -131,7 +131,7 @@
     "command": "-workbench.action.quickOpen"
   },
   {
-    "key": "cmd+.",
+    "key": "cmd+[Period]",
     "command": "editor.action.quickFix",
     "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
   },
@@ -139,5 +139,19 @@
     "key": "cmd+.",
     "command": "-editor.action.quickFix",
     "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+[Slash]",
+    "command": "editor.emmet.action.toggleComment"
+  },
+  {
+    "key": "cmd+[Slash]",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+[Backslash]",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
