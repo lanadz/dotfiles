@@ -1,4 +1,4 @@
-source ~/.aliases
+source .aliases
 
 # autoload -Uz colors && colors
 autoload -Uz vcs_info
