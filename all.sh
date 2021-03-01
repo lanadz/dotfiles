@@ -7,7 +7,7 @@ print_header "creating symlinks"
 
 ### git
 
-symlink_to_home ~/dotfiles/git/.gitconfig
+symlink_to_home ~/dotfiles/.gitconfig
 # symlink_to_home ~/dotfiles/git/.gitignore_global
 
 ### shell
@@ -22,7 +22,7 @@ symlink_to_home ~/dotfiles/git/.gitconfig
 #### zsh
 
 #symlink_to_home ~/dotfiles/shell/zsh/.zprofile
-symlink_to_home ~/dotfiles/shell/zsh/.zshrc
+symlink_to_home ~/dotfiles/.zshrc
 
 ### ruby
 
